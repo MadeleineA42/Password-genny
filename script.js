@@ -3,7 +3,11 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
   console.log('button clicked');
-  
+  var length = prompt("Enter how many characters you would like. 8-128")
+  if (length < 8 || length > 128) {
+      alert("ERROR! Password must be between 8 and 128 characters!");
+  } 
+  // prompt to make sure password is correct amount of characters
 }
 // added console so I can see when button is clicked
 
