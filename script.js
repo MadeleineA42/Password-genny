@@ -14,6 +14,7 @@ function generatePassword() {
   var includeUppercase = confirm("Would you like to include uppercase letters?");
   var includeSpecial = confirm("Would you like to include special characters?");
   var includeNumbers = confirm("Would you like to include numbers?");
+  // these are vars for each prompt pop up
 }
 // added console so I can see when button is clicked
 
