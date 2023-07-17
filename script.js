@@ -10,6 +10,10 @@ function generatePassword() {
       return ""
       // THIS WILL BE THE RETURN MESSAGE
   } 
+  var includeLowercase = confirm("Would you like to include lowercase letters?");
+  var includeUppercase = confirm("Would you like to include uppercase letters?");
+  var includeSpecial = confirm("Would you like to include special characters?");
+  var includeNumbers = confirm("Would you like to include numbers?");
 }
 // added console so I can see when button is clicked
 
