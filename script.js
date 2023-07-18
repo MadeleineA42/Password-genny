@@ -7,7 +7,7 @@ function generatePassword() {
   if (length < 8 || length > 128) {
       alert("ERROR! Password must be between 8 and 128 characters!");
       // prompt to make sure password is correct amount of characters
-      return ""
+      return "You've generated a secure password";
       // THIS WILL BE THE RETURN MESSAGE
   } 
   var includeLowercase = confirm("Would you like to include lowercase letters?");
