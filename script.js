@@ -23,8 +23,8 @@ function generatePassword() {
   var uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var specialChar = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
   var numbers = "0123456789";
-
-
+  false = ("0")
+// this will help the prompt when you hit cancel
 }
 
 // added console so I can see when button is clicked
