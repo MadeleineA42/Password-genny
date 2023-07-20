@@ -27,7 +27,7 @@ function generatePassword() {
   var includeSpecial = confirm("Would you like to include special characters?");
   var includeNumbers = confirm("Would you like to include numbers?");
   // these are vars for each prompt pop up
-  if (includeLowercase && includeUppercase && includeSpecial && includeNumbers); {
+  if (includeLowercase && includeUppercase && includeSpecial && includeNumbers) {
     // alert("You must include at least one character type.");
   }
 
@@ -53,6 +53,7 @@ function generatePassword() {
     characterSet += numbers;
   }
   
+ 
 }
 
 
