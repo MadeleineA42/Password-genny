@@ -53,7 +53,7 @@ function generatePassword() {
     characterSet += numbers;
   }
   
- 
+  var password = "";
 }
 
 
