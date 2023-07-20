@@ -9,3 +9,7 @@ Then I am presented with a unique randomized password<br>
 
 I needed help making a for loop for line 57 in the js. This is the source I came across:
 https://stackoverflow.com/questions/73791166/how-should-i-go-about-using-a-for-loop-to-randomize-arrays-concat-into-another-a
+
+
+link to deployed site:
+https://madeleinea42.github.io/Password-genny/
