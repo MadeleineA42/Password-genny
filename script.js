@@ -1,6 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
 function generatePassword() {
   console.log('button clicked');// added console so I can see when button is clicked
   var length = prompt("Enter how many characters you would like. 8-128")
@@ -24,8 +36,7 @@ function generatePassword() {
   var specialChar = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
   var numbers = "0123456789";
   var characterSet = "";
-  // false = ("0")
-  // this will help the prompt when you hit cancel
+
   if (includeLowercase) {
     characterSet += lowercaseLetters;
   }
@@ -41,20 +52,11 @@ function generatePassword() {
   if (includeNumbers) {
     characterSet += numbers;
   }
+  
 }
 
 
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
-
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
 
 // console.log(Math.floor(Math.random() * 10))
