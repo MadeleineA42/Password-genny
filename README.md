@@ -1,7 +1,7 @@
-When I click the "generate password button
-Then I am presented with various prompts asking to include or exclude different criteria
-When I answer the prompts with my preferences 
-Then I am presented with a unique randomized password
+When I click the "generate password" button <br>
+Then I am presented with various prompts asking to include or exclude different criteria<br>
+When I answer the prompts with my preferences <br>
+Then I am presented with a unique randomized password<br>
 
 
 
