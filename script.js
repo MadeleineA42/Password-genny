@@ -7,7 +7,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+// this is part of the starter code
 }
 
 // Add event listener to generate button
@@ -28,7 +28,7 @@ function generatePassword() {
   var includeNumbers = confirm("Would you like to include numbers?");
   // these are vars for each prompt pop up
   if (includeLowercase && includeUppercase && includeSpecial && includeNumbers) {
-    // alert("You must include at least one character type.");
+    
   }
 
   var lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
@@ -54,7 +54,11 @@ function generatePassword() {
   }
   
   var password = "";
-  for (var i = 0)
+  for (var i = 0; i < length; i++) {
+    var randIndex = Math.floor(characterSet.length * Math.random());
+    password += characterSet[randIndex]
+  }
+  return password;
 }
 
 
