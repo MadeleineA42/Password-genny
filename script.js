@@ -37,11 +37,11 @@ function generatePassword() {
   var specialChar = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
   var numbers = "0123456789";
   var characterSet = "";
-
+  // these are the options for each category
   if (includeLowercase) {
     characterSet += lowercaseLetters;
   }
-
+// will incluse lowercase if selected
   if (includeUppercase) {
     characterSet += uppercaseLetters;
   }
