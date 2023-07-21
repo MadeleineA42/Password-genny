@@ -45,15 +45,15 @@ function generatePassword() {
   if (includeUppercase) {
     characterSet += uppercaseLetters;
   }
-
+// will include uppercase if selected
   if (includeSpecial) {
     characterSet += specialChar;
   }
-
+// will add specials if selected 
   if (includeNumbers) {
     characterSet += numbers;
   }
-
+// will include numbers if selected
   var password = "";
   for (var i = 0; i < length; i++) {
     var randIndex = Math.floor(characterSet.length * Math.random());
